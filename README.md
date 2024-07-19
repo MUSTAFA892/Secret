@@ -1,22 +1,92 @@
-# IPL First Innings Score Prediction - Deployment
-![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
+# Building & Deployment Of IPL First Innings Score Prediction 
+![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
+![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
+![flask](https://img.shields.io/badge/Library-flask-blue.svg)
+![Numpy](https://img.shields.io/badge/Library-numpy-red.svg)
+![Pandas](https://img.shields.io/badge/Library-pandas-white.svg)
 
-• This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
+• Deploying a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
 
-• If you want to view the deployed model, click on the following link:<br />
-Deployed at: _https://ipl-first-innings-score.herokuapp.com_
-
-• If you are searching for __Code__, __Algorithms used__ and __Accuracy__ of the model.. you won't find it here. Click the link mentioned below for the same:<br />
-Link: _https://github.com/anujvyas/Machine-Learning-Projects/tree/master/First%20Innings%20Score%20Predicton%20-%20IPL_
+• If you want to view the deployed model, click on the following link:
+https://ipl-score-prediction-app458.herokuapp.com/
 
 • Please do ⭐ the repository, if it helped you in anyway.
+## Authors
 
-• A glimpse of the web app:
+- [@Akash Kumar Jha](https://github.com/Akash1070)
 
- ![GIF](readme_resources/ipl-first-innings-score-web-app.gif)
- 
-_**----- Important Note -----**_<br />
-• If you encounter this webapp as shown in the picture given below, it is occuring just because **free dynos for this particular month provided by Heroku have been completely used.** _You can access the webpage on 1st of the next month._<br />
-• Sorry for the inconvenience.
 
-![Heroku-Error](readme_resources/application-error-heroku.png)
+## Deployment
+
+    1. Data Extraction
+    2. Exploratory Data Analysis(EDA)
+    3. Feature Engineering
+    4. Model Building and Tuning
+    5. Building Flask API
+    6. Pushing code to Github
+    7. Connecting to your Heroku account 
+    8. Deploy App
+
+
+## Installation
+
+To install the libraries used in this project. Follow the 
+below steps:
+
+```bash
+from flask import Flask, render_template, request
+import pickle
+import numpy as np
+from sklearn.linear_model import LinearRegression
+import pandas as pd
+import pickle
+
+```
+    
+## Running Flask Api
+
+To run tests, run the following command
+
+```bash
+  python app.py
+```
+
+## Running Heroku Tests
+
+To run a Heroku deployment tests, click on the following link:
+
+[IPL First Innings Score Prediction App](https://ipl-score-prediction-app458.herokuapp.com/)
+
+## 🚀 About Me
+
+Data Scientist Enthusiast | Petroleum Engineer Graduate | Solving Problems Using Data 
+
+
+# Hi, I'm Akash! 👋
+
+
+## 🔗 Links
+[![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Akash1070)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akashkumar107/)
+## Other Me
+👩‍💻 I’m interested in Petroleum Engineering
+
+🧠 I’m currently learning Data Scientist | Data Analytics | Business Analytics
+
+👯‍♀️ I’m looking to collaborate on Ideas & Data
+
+
+
+
+## 🛠 Skills
+1. Data Scientist
+2. Data Analyst
+3. Business Analyst
+4. Machine Learning 
+
+
+## Future Plans 
+
+⚡️ Looking forward to help drive innovations into your company as a Data Scientist
+
+⚡️ Looking forward to offer more than I take and leave the place better than i found
